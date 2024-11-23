@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div class = "container">
+        <div class = "content">
+            <header>
+                <h2>Create Account</h2>
+            </header>
+            <main>
+                <div class = "name">
+                    <div class = "firstname">
+                        <p>First name*</p>
+                        <input type ="text" placeholder="enter your first name">
+                    </div>
+                    <div class = "lastname">
+                        <p>Last name</p>
+                        <input type ="text" placeholder="enter your last name">
+                    </div>
+                </div>
+                <div class = "email">
+                    <p>Email*</p>
+                    <input type ="email" placeholder="enter your email">
+                </div>
+                <div class = "password">
+                    <div class = "enter-pass">
+                        <p>Password*</p>
+                        <input type ="password" placeholder="enter your password">
+                    </div>
+                    <div class = "check-pass">
+                        <p>Confirm Password*</p>
+                        <input type ="password" placeholder="enter your password again">
+                    </div>
+                </div>
+                <div class = "row4">
+                    <div class = "gender">
+                        <p>Gender:</p>
+                        <span><input type="radio">Male</span>
+                        <span><input type="radio">Female</span>
+                    </div>
+                    <div class = "hobbies">
+                        <p>Hobbies</p>
+                        <span><input type="checkbox">Music</span>
+                        <span><input type="checkbox">Sports</span>
+                        <span><input type="checkbox">Travel</span>
+                        <span><input type="checkbox">Movies</span>
+                    </div>
+                </div>
+                <div class = "row5">
+                    <div class = "position">
+                        <p>Source of Income</p>
+                        <select>
+                            <option value="value1">Employee</option>
+                            <option value="value2">Student</option>
+                            <option value="value3">Professor</option>
+                        </select>
+                    </div>
+                    <div class = "income">
+                        <p>Income</p>
+                        <div class = "range-container">
+                            <input type = "range" min="0" max="50k" step="1" value="20k">
+                            <output for="range"><button>20k</button></output>
+                        </div>
+                    </div>
+                </div>
+                <div class = "row6">
+                    <div class = "picture">
+                        <p>Upload Profile Picture</p>
+                        <input type = "file">
+                    </div>
+                    <div class = "age">
+                        <p>Age</p>
+                        <input type = "number">
+                    </div>
+                </div>
+                <div class = "bio">
+                    <p>Bio</p>
+                    <input type="text" placeholder="">
+                </div>
+            </main>
+            <footer>
+                <div class = "button-container">
+                    <button>Create</button>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
